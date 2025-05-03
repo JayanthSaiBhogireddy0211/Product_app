@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "Premium noise-cancelling wireless headphones with 30-hour battery life and comfortable over-ear design.",
+    "price": 199.99,
+    "imageUrl": "https://www.gonoise.com/cdn/shop/files/CompressJPEG.online_500x500-image.png?v=30%",
+    "category": "Electronics",
+    "rating": 4.7,
+    "stock": 45
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "description": "Feature-rich smartwatch with heart rate monitoring, GPS, and water resistance up to 50 meters.",
+    "price": 249.99,
+    "imageUrl": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1709052793/305114_0_ckgqk5.png",
+    "category": "Electronics",
+    "rating": 4.5,
+    "stock": 32
+  },
+  {
+    "id": 3,
+    "name": "Laptop Backpack",
+    "description": "Durable laptop backpack with multiple compartments, USB charging port, and anti-theft design.",
+    "price": 59.99,
+    "imageUrl": "https://www.fgear.in/cdn/shop/files/1_24e83df2-e351-4200-9455-4be1655dbd19.jpg?v=1709705768&width=1100",
+    "category": "Accessories",
+    "rating": 4.8,
+    "stock": 78
+  },
+  {
+    "id": 4,
+    "name": "Mechanical Keyboard",
+    "description": "RGB mechanical keyboard with customizable lighting and ergonomic design for extended gaming sessions.",
+    "price": 129.99,
+    "imageUrl": "https://images.indianexpress.com/2021/06/Corsair-Mechanical-Keyboard.jpg",
+    "category": "Electronics",
+    "rating": 4.6,
+    "stock": 23
+  },
+  {
+    "id": 5,
+    "name": "Portable Charger",
+    "description": "20000mAh portable power bank with fast charging and multiple ports for different devices.",
+    "price": 49.99,
+    "imageUrl": "https://media.wired.com/photos/6504b2a1afe02332db973557/4:3/w_960,c_limit/Ugreen_Power_Bank-SOURCE-Ugreen-Gear.jpg",
+    "category": "Electronics",
+    "rating": 4.4,
+    "stock": 60
+  },
+  {
+    "id": 6,
+    "name": "Coffee Maker",
+    "description": "Programmable coffee maker with 12-cup capacity and built-in grinder for the freshest brew.",
+    "price": 89.99,
+    "imageUrl": "https://rukminim2.flixcart.com/image/850/1000/xif0q/coffee-maker/n/j/j/63153711-regalia-espresso-wonderchef-original-imah2fyed5hnvmep.jpeg?q=20&crop=false",
+    "category": "Home",
+    "rating": 4.3,
+    "stock": 15
+  }
+]

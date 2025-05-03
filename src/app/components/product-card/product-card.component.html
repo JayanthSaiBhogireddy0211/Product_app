@@ -1,0 +1,18 @@
+<div class="product-card" (click)="onProductClick()">
+  <div class="product-image">
+    <img [src]="product.imageUrl" [alt]="product.name">
+  </div>
+  <div class="product-info">
+    <h3 class="product-name">{{ product.name }}</h3>
+    <div class="product-rating">
+      <span>Rating: {{ product.rating }}/5</span>
+    </div>
+    <div class="product-price">
+      <span>${{ product.price.toFixed(2) }}</span>
+    </div>
+    <p class="product-description-preview">
+      {{ product.description.substring(0, 100) }}{{ product.description.length > 100 ? '...' : '' }}
+    </p>
+    <button class="view-details-btn">View Details</button>
+  </div>
+</div>

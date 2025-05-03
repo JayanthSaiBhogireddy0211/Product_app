@@ -1,0 +1,51 @@
+<div class="product-detail-container">
+    <div class="back-button">
+      <button (click)="goBack()">← Back to Products</button>
+    </div>
+    
+    <ng-container *ngIf="(product$ | async) as product; else loading">
+      <div class="product-detail">
+        <div class="product-image">
+          <img [src]="product.imageUrl" [alt]="product.name">
+        </div>
+        
+        <div class="product-info">
+          <h1 class="product-name">{{ product.name }}</h1>
+          
+          <div class="product-rating">
+            <span>Rating: {{ product.rating }}/5</span>
+          </div>
+          
+          <div class="product-price">
+            <span>${{ product.price.toFixed(2) }}</span>
+          </div>
+          
+          <div class="product-stock">
+            <span [ngClass]="product.stock > 0 ? 'in-stock' : 'out-of-stock'">
+              {{ product.stock > 0 ? 'In Stock' : 'Out of Stock' }} ({{ product.stock }} available)
+            </span>
+          </div>
+          
+          <div class="product-category">
+            <span>Category: {{ product.category }}</span>
+          </div>
+          
+          <div class="product-description">
+            <h3>About this item</h3>
+            <p>{{ product.description }}</p>
+          </div>
+          
+          <div class="product-actions">
+            <button class="add-to-cart-btn">Add to Cart</button>
+            <button class="buy-now-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+    
+    <ng-template #loading>
+      <div class="loading">
+        <p>Loading product details...</p>
+      </div>
+    </ng-template>
+  </div>

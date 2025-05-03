@@ -1,0 +1,24 @@
+.product-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 10px;
+    }
+    
+    .product-list {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .loading, .no-products {
+      text-align: center;
+      padding: 40px;
+      color: #666;
+    }
+  }
